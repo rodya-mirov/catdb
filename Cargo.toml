@@ -1,0 +1,14 @@
+[package]
+name = "catdb"
+version = "0.1.0"
+authors = ["Richard Rast <richard.rast@gmail.com>"]
+
+[lib]
+name = "catdb_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "catdb_bin"
+path = "src/main.rs"
+
+[dependencies]
