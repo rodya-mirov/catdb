@@ -1,2 +1,2 @@
 #[allow(dead_code)]
-mod trees;
+pub mod trees; // pub for now, exposed for benching
